@@ -8,9 +8,6 @@
     width: 100% !important;
   }
 </style>
-# Dr. Anish Mallick
-
-**Staff Data Scientist** | **Mathematical Physicist**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/anish23618) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/anish-mallick-4179a133)
