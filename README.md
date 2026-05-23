@@ -108,17 +108,37 @@ Compute:       AWS (EC2), GCP (Vertex AI), MPI, OpenMP, OpenCL, OR-Tools
 Typesetting:   LaTeX, WordPress
 ```
 ---
-## 🔬 Research & Computational Engineering
+## 🔬 Engineering Portfolio & Research Artifacts
 
-My core research background is rooted in theoretical mathematics and mathematical physics, with a specific focus on stochastic systems, operator theory, and discrete spatial modeling. 
+A curated repository of custom software-rendering engines, stochastically perturbed multi-agent simulations, and information-entropy analyses built from first principles.
 
-I maintain an active index of my academic thesis formulations, structural geometric proofs, and legacy interactive simulations on my dedicated project portfolio page.
+### 🕹️ Interactive Systems & Client-Side Physics
 
-### 📊 [Explore the Full Research & Project Index](./projects.html)
+* **Multi-Agent Avian Flocking & Emergent Dynamics**
+  * Investigates how decentralized local neighborhood rules (alignment, proximity repulsion, and inter-species cross-evasion) trigger macro-level spatial partitioning and phase transitions.
+  * 🌐 **[Launch Interactive Simulation](./simulations/cellInteraction.html)** * 🛠️ *Stack: Vanilla HTML5 Canvas, Discrete Time-Step Kinematics*
 
-* **Spectral Multiplicity Analysis:** Investigating singular spectrum bounds for a class of random operators with finite, uniform-rank orthogonal projections.
-* **Geometric Scissors Congruence:** An expository homological algebra framework evaluating structural boundary obstructions in Hilbert's 3rd Problem across higher dimensions.
-* **Multi-Agent Emergent Systems:** Client-side kinematic simulations modeling collective flocking dynamics, phase transitions, and spatial partitioning under localized neighborhood constraints. 
-  * 🕹️ *Direct deployment link:* **[Launch Multi-Agent Simulation](./simulations/cellInteraction.html)**
+* **Vanilla JS 3D Rasterization Engine & Wave Dynamics**
+  * A hand-coded linear algebra rendering pipeline built prior to modern WebGL standards. Features a weak perspective projection matrix, real-time vertex displacement, and surface-normal calculation for dynamic specular shading on a triangular lattice. Includes a dual-pane velocity phase-space plot.
+  * 🌐 **[Launch 3D Physics Engine](./simulations/3dPlaneWave.html)**
+  * 🛠️ *Stack: Vanilla JavaScript, Coordinate Projection Geometry*
+
+### 📊 Statistical Signal Processing & Data Analysis
+
+* **Number-Theoretic Time Series & Markovian Entropy**
+  * An investigation treating the gaps between integers expressible as the sum of two squares ($n = a^2 + b^2$) as a discrete-time signal. Scaled through high-order Markov window depths ($k=2$ to $k=8$) across a 16.6-million observation horizon to test for pseudo-random Gaussian white noise structures.
+  * 📄 **[Read Full Statistical Deep Dive](./sum-of-squares.html)**
+  * 🛠️ *Stack: Mathematical Modeling, Fast Fourier Transforms, Probability Hashing*
+
+### 📐 Pure Theory & Mathematical Abstractions
+
+* **Spectral Multiplicity for Random Operators** *(PhD Thesis Formulation)*
+  * Establishes the exact algebraic and topological conditions under which cyclic, invariant subspaces associated with projection-valued stochastically perturbed operators are unitarily equivalent. Proves a concrete multiplicity bound on the singular spectrum using matrix-valued Herglotz functions.
+  * 🗂️ *Theoretical Framework: Spectral Theory, Infinite-Dimensional Operators, Stochastic Perturbations*
+
+* **Scissors Congruence and Hilbert's 3rd Problem**
+  * An expository re-formulation and optimization of the classical equidecomposability proof. Maps the geometric boundary conditions of the Dehn Invariant onto chain complexes and group homology to identify structural obstructions in higher dimensions.
+  * 🗂️ *Theoretical Framework: Geometric Topology, Homological Algebra, Tensor Product Valuation*
 
 ---
+
