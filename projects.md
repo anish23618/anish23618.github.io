@@ -36,6 +36,7 @@ By mapping the scissors congruence problem to chain complexes and group homology
 ---
 ## 🦅 Avian Flocking & Emergent Collective Dynamics
 * **Domain:** Self-Organizing Systems & Kinematic Boundary Constraints
+* **Live System Deployment:** 🕹️ **[Launch Interactive Simulation](./simulations/cellInteraction.html)**
 
 #### System Architecture & Local Rules
 The simulation handles three distinct, co-existing agent species operating within a bounded 2D continuous space. At each discrete time-step $\Delta t$, an individual agent's vector orientation is updated based on localized neighborhood constraints:
