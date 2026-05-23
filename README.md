@@ -107,3 +107,18 @@ Frameworks:    PyTorch, LangGraph, Graph Neural Networks (PyG), Agentic LLM Orch
 Compute:       AWS (EC2), GCP (Vertex AI), MPI, OpenMP, OpenCL, OR-Tools
 Typesetting:   LaTeX, WordPress
 ```
+---
+## 🔬 Research & Computational Engineering
+
+My core research background is rooted in theoretical mathematics and mathematical physics, with a specific focus on stochastic systems, operator theory, and discrete spatial modeling. 
+
+I maintain an active index of my academic thesis formulations, structural geometric proofs, and legacy interactive simulations on my dedicated project portfolio page.
+
+### 📊 [Explore the Full Research & Project Index](./projects.html)
+
+* **Spectral Multiplicity Analysis:** Investigating singular spectrum bounds for a class of random operators with finite, uniform-rank orthogonal projections.
+* **Geometric Scissors Congruence:** An expository homological algebra framework evaluating structural boundary obstructions in Hilbert's 3rd Problem across higher dimensions.
+* **Multi-Agent Emergent Systems:** Client-side kinematic simulations modeling collective flocking dynamics, phase transitions, and spatial partitioning under localized neighborhood constraints. 
+  * 🕹️ *Direct deployment link:* **[Launch Multi-Agent Simulation](./simulations/cellInteraction.html)**
+
+---
