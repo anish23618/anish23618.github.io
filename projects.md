@@ -1,3 +1,13 @@
+<style>
+  .wrapper {
+    max-width: 80% !important;
+    width: 80% !important;
+  }
+  section {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+</style>
 ## 📐 Spectral Multiplicity for Random Operators with Projection-Valued Randomness
 * **Domain:** Spectral Theory, Mathematical Physics & Infinite-Dimensional Operators
 * **Core Problem:** Determining the multiplicity bounds of the singular spectrum for a generalized class of self-adjoint random operators.
