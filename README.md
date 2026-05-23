@@ -140,6 +140,7 @@ A curated repository of custom software-rendering engines, stochastically pertur
 * **Scissors Congruence and Hilbert's 3rd Problem**
   * An expository re-formulation and optimization of the classical equidecomposability proof. Maps the geometric boundary conditions of the Dehn Invariant onto chain complexes and group homology to identify structural obstructions in higher dimensions.
   * 🗂️ *Theoretical Framework: Geometric Topology, Homological Algebra, Tensor Product Valuation*
+  * **[Read Summary](./projects.html#-scissors-congruence-and-hilberts-3rd-problem)**
 
 ---
 
