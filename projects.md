@@ -52,3 +52,22 @@ The simulation handles three distinct, co-existing agent species operating withi
 #### Key Contributions & Observations
 * **Rapid Phase-Transition Clustering:** Demonstrated that even with high noise (stochastic kicks) and multi-species friction, local rules consistently trigger immediate phase transitions into stable, moving macro-clusters.
 * **Complex Spatial Partitioning:** Observed emergent segregation boundaries where competing species naturally construct fluid, non-overlapping spatial territories based entirely on local repulsion rules—providing a solid client-side foundation for studying multi-agent space-state exploration.
+---
+## 📐 Vanilla JS 3D Rasterization Engine & Wave Dynamics Simulator
+* **Domain:** Computer Graphics Architecture, Discrete Coordinate Geometry & Wave Kinematics
+* **Live System Deployment:** 🕹️ **[Launch 3D Simulation](./simulations/3dPlaneWave.html)**
+* **Core Problem:** Implementing a real-time, lightweight 3D graphics pipeline inside a 2D HTML5 canvas context without relying on WebGL or external matrix libraries. The software models a continuous time-evolution wave function traversing an interconnected, non-rigid triangular lattice.
+
+#### System Architecture & Linear Algebra Framework
+Built completely in vanilla JavaScript (circa 2011–2013), this engine constructs a custom software-rendering pipeline mapping three-dimensional physics states down to a dynamic two-dimensional viewport:
+
+1. **Orthographic/Weak Perspective Projection:** Maps a three-dimensional vertex matrix $\mathbf{X} = (x, y, z)^T$ directly to screen coordinate components via scalar translation, rotations, and trigonometric skew transforms.
+2. **Dynamic Face-Filling & Custom Rasterization:** Organizes vertices into a discrete triangular lattice topology. Faces are explicitly filled using continuous color interpolation to mimic volumetric surfaces based on real-time vertex displacement.
+3. **Specular/Lambertian Approximation Shader:** Implements a localized surface-normal algorithm calculating face illumination relative to a fixed screen-space lighting vector. Ray-surface dot products are evaluated to vary color density dynamically, though tracking edge-cases at extreme angles highlights classical back-face culling limitations.
+4. **Phase Space / Velocity Lattice Mapping:** The dual-pane architecture runs parallel canvas instances:
+   * **Left Viewport:** The spatial domain displaying the deformation wave moving through the surface topology.
+   * **Right Viewport:** The velocity phase-space diagram tracking the evolution vectors of individual lattice nodes connected by congruent edge structures.
+
+#### Key Contributions & Insights
+* **Deterministic Matrix Calculations:** Hand-coded the foundational transformation matrices, vector normal computations, and face ordering required for raw graphic rendering.
+* **Complex Spatial Dual-Visualization:** Successfully linked a dynamic physical simulation with its corresponding phase-space topology in real time, demonstrating early full-stack computing efficiency.
