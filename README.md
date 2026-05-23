@@ -135,7 +135,7 @@ A curated repository of custom software-rendering engines, stochastically pertur
 * **Spectral Multiplicity for Random Operators** *(PhD Thesis Formulation)*
   * Establishes the exact algebraic and topological conditions under which cyclic, invariant subspaces associated with projection-valued stochastically perturbed operators are unitarily equivalent. Proves a concrete multiplicity bound on the singular spectrum using matrix-valued Herglotz functions.
   * 🗂️ *Theoretical Framework: Spectral Theory, Infinite-Dimensional Operators, Stochastic Perturbations*
-  * **[Read Summary](./projects.html#spectral-multiplicity-for-random-operators)**
+  * **[Read Summary](./projects.html#-spectral-multiplicity-for-random-operators-with-projection-valued-randomness)**
 
 * **Scissors Congruence and Hilbert's 3rd Problem**
   * An expository re-formulation and optimization of the classical equidecomposability proof. Maps the geometric boundary conditions of the Dehn Invariant onto chain complexes and group homology to identify structural obstructions in higher dimensions.
