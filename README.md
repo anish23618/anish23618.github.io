@@ -34,18 +34,17 @@ five major projects.
 * Teaching Assistant, Ashoka University [July 2021-Dec 2021]
 ---
 ## Academic Journey
-* [August 2019-April 2021] FONDECYT-Postdoctoral fellow at PUC (Pontificia Universidad Católica de Chile) Chile,
-  - Developed a polynomial time algorithm to check satisfiability for quantified Horn formula.
-  - Project on spectral theory for random Hamiltonian over anti-tree.
-* [Feburary 2017-April 2019] postdoctrol fellow at ICTS (Internation Centre for Theoretical Sciences) India,
-  - Designed and implemented multiple projects on spectral analysis of Anderson model over various setting.
-* [March 2016-April 2016] Academic visit at Department of Mathematics in IISc (Indian Institute of Science) India,
-* (PhD) [August 2011-August 1016] Research Fellow at IMSc (Institute for Mathematical Sciences),
-* (MS/BS) [2006-2011] IISER (Indian Institute of Science Education and Research Kolkata) India
-* [2006] Higher Secondary (AISSCE)
-
+* **Postdoctoral Fellow (FONDECYT)**, PUC Chile `[August 2019 - April 2021]`
+  - Developed a polynomial-time algorithm to check satisfiability for quantified Horn formulas.
+  - Conducted research on spectral theory for random Hamiltonians over anti-tree graphs.
+* **Postdoctoral Fellow**, ICTS India `[February 2017 - April 2019]`
+  - Designed and implemented multiple projects on spectral analysis of the Anderson model over various geometric settings.
+* **Academic Visitor**, Department of Mathematics, IISc India `[March 2016 - April 2016]`
+* **Ph.D. Research Fellow**, IMSc Chennai `[August 2011 - August 2016]`
+* **BS-MS Dual Degree**, IISER Kolkata `[2006 - 2011]`
+* **Higher Secondary (AISSCE)** `[2006]`
+---
 For a full list of publications, please see [here](https://scholar.google.com/citations?user=gVn3rxMAAAAJ&hl=en&oi=ao).
-
 ---
 
 ## Technical Focus & Field Expertise
