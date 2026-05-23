@@ -1,3 +1,13 @@
+<style>
+  .wrapper {
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+  section {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+</style>
 # Dr. Anish Mallick
 
 **Staff Data Scientist** | **Mathematical Physicist**
