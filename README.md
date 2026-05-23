@@ -43,8 +43,11 @@ five major projects.
 * **Ph.D. Research Fellow**, IMSc Chennai `[August 2011 - August 2016]`
 * **BS-MS Dual Degree**, IISER Kolkata `[2006 - 2011]`
 * **Higher Secondary (AISSCE)** `[2006]`
+
 ---
+
 For a full list of publications, please see [here](https://scholar.google.com/citations?user=gVn3rxMAAAAJ&hl=en&oi=ao).
+
 ---
 
 ## Technical Focus & Field Expertise
@@ -77,7 +80,7 @@ A visualization tool dedicated to tracking topological properties and attractor 
 * **Random Hamiltonians over Anti-Tree Topologies** *Characterized spectral bounds, quantum mechanics states, and discrete operator behaviors on non-standard graph architectures, exploring how macro-connectivity alters spectral transitions.*
 
 ### 🔹 Applied Mathematical Modeling & Complex Systems
-* **Topological Structures & Emergent Dynamics** *Co-authored and designed projects spanning multi-disciplinary modeling, including stochastic data-fitting, fractal boundaries, and neighborhood-constrained topology growth.*
+* **Topological Structures & Emergent Dynamics:** *Co-authored and designed projects spanning multi-disciplinary modeling, including stochastic data-fitting, fractal boundaries, and neighborhood-constrained topology growth.*
 ---
 
 ### 💻 Core Toolkit
