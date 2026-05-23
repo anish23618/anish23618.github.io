@@ -1,7 +1,7 @@
 <style>
   .wrapper {
-    max-width: 90% !important;
-    width: 90% !important;
+    max-width: 80% !important;
+    width: 80% !important;
   }
   section {
     max-width: 100% !important;
