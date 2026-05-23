@@ -1,7 +1,13 @@
----
-layout: default
-title: Sum of Two Squares & Time Series Analysis | Dr. Anish Mallick
----
+<style>
+  .wrapper {
+    max-width: 80% !important;
+    width: 80% !important;
+  }
+  section {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+</style>
 
 # 🔢 Statistical Time Series Analysis on the Sum of Two Squares
 
