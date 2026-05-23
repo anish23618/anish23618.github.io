@@ -52,6 +52,7 @@ The simulation handles three distinct, co-existing agent species operating withi
 #### Key Contributions & Observations
 * **Rapid Phase-Transition Clustering:** Demonstrated that even with high noise (stochastic kicks) and multi-species friction, local rules consistently trigger immediate phase transitions into stable, moving macro-clusters.
 * **Complex Spatial Partitioning:** Observed emergent segregation boundaries where competing species naturally construct fluid, non-overlapping spatial territories based entirely on local repulsion rules—providing a solid client-side foundation for studying multi-agent space-state exploration.
+
 ---
 ## 📐 Vanilla JS 3D Rasterization Engine & Wave Dynamics Simulator
 * **Domain:** Computer Graphics Architecture, Discrete Coordinate Geometry & Wave Kinematics
