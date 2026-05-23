@@ -1,6 +1,6 @@
 theme: jekyll-theme-midnight
 title: Dr. Anish Mallick
-tagline: Staff Data Scientist (PhD Mathematical Physics)
+description: Staff Data Scientist (PhD Mathematical Physics)
 # We rename this key to preserve the text for your SEO tag plugin while hiding it from Midnight's layout engine:
 site_description: Personal portfolio and research index of Dr. Anish Mallick, Staff Data Scientist and Mathematical Physicist.
 url: "https://anish23618.github.io"
