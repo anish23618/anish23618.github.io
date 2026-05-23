@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>3D Canvas Rendering Engine | Dr. Anish Mallick</title>
+    <script type="text/javascript" src="render3DPlaneWave.js" defer></script>
+    <style>
+        body {
+            background-color: #1e1e24;
+            color: #e2e8f0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            margin: 0 auto;
+            background-color: #2d2d34;
+            width: 100%;
+            max-width: 1200px;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        h1 { text-align: center; color: #58a6ff; margin-top: 0; }
+        .pane { float: left; margin: 10px; width: 400px; text-align: center; }
+        .text-pane { float: left; margin: 10px; width: 320px; line-height: 1.6; }
+        canvas { border: 2px solid #58a6ff; border-radius: 4px; background: #000; display: block; margin: 0 auto; }
+        p.telemetry { font-family: monospace; color: #8b949e; background: #161b22; padding: 4px 8px; border-radius: 4px; display: inline-block; }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body onload="runn()">
+
+    <div class="container">
+        <h1>3D Pseudo-Rendering & Wave Kinematics Machine</h1>
+        
+        <div class="pane">
+            <canvas id="target1" width="400" height="400"></canvas>
+            <p>Spatial Deformation Lattice</p>
+            <p id="demo1" class="telemetry">0.000000</p>
+        </div>
+
+        <div class="pane">
+            <canvas id="target2" width="400" height="400"></canvas>
+            <p>Velocity Phase Space Graph</p>
+            <p id="demo2" class="telemetry">0.000000</p>
+        </div>
+
+        <div class="text-pane">
+            <p><strong>Left Engine Viewport:</strong> Renders a continuous triangular lattice surface. Face colors are dynamically scaled using an engineered specular normal vector algorithm relative to a stationary simulated screen light source.</p>
+            <p><strong>Right Engine Viewport:</strong> Plots the concurrent velocity state evolution vectors for all corresponding lattice vertices.</p>
+            <p><a href="../projects.html">← Return to Project Archive</a></p>
+        </div>
+        
+        <br style="clear:both;">
+    </div>
+
+</body>
+</html>
