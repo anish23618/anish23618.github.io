@@ -43,7 +43,6 @@ five major projects.
 * **Ph.D. Research Fellow**, IMSc Chennai `[August 2011 - August 2016]`
 * **BS-MS Dual Degree**, IISER Kolkata `[2006 - 2011]`
 * **Higher Secondary (AISSCE)** `[2006]`
-
 ---
 
 For a full list of publications, please see [here](https://scholar.google.com/citations?user=gVn3rxMAAAAJ&hl=en&oi=ao).
