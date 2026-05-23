@@ -24,7 +24,23 @@
         h1 { text-align: center; color: #58a6ff; margin-top: 0; }
         .pane { float: left; margin: 10px; width: 400px; text-align: center; }
         .text-pane { float: left; margin: 10px; width: 320px; line-height: 1.6; }
-        canvas { border: 2px solid #58a6ff; border-radius: 4px; background: #000; display: block; margin: 0 auto; }
+        
+        /* Specific viewports background styling */
+        #target1 { 
+            border: 2px solid #58a6ff; 
+            border-radius: 4px; 
+            background-color: #000000; /* Spatial domain stays dark */
+            display: block; 
+            margin: 0 auto; 
+        }
+        #target2 { 
+            border: 2px solid #58a6ff; 
+            border-radius: 4px; 
+            background-color: #ffffff; /* Phase-space forces sharp white background */
+            display: block; 
+            margin: 0 auto; 
+        }
+
         p.telemetry { font-family: monospace; color: #8b949e; background: #161b22; padding: 4px 8px; border-radius: 4px; display: inline-block; }
         a { color: #58a6ff; text-decoration: none; }
         a:hover { text-decoration: underline; }
