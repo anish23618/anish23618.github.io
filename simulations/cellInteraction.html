@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Multi-Agent Flocking Simulation | Dr. Anish Mallick</title>
+    <style>
+        body {
+            background-color: #1e1e24; /* Dark mode style to match Midnight */
+            color: #e2e8f0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            margin: 0 auto;
+            background-color: #2d2d34;
+            width: 100%;
+            max-width: 1100px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        h1 { text-align: center; color: #58a6ff; margin-top: 0; }
+        .canvas-pane { float: left; padding: 10px; width: 400px; }
+        .text-pane { float: left; padding: 10px; width: 620px; line-height: 1.6; }
+        canvas { border: 2px solid #58a6ff; border-radius: 4px; background: #111; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body onload="runn()">
+
+    <div class="container">
+        <h1>Multi-Agent Collective Interaction Model</h1>
+        
+        <div class="canvas-pane">
+            <canvas id="target" width="400" height="400"></canvas>
+        </div>
+        
+        <div class="text-pane">
+            <p>This agent-based kinematic framework models the self-organizing trajectory variations of three competing virtual species. The system demonstrates rapid structural phase transitions into cohesive, moving clusters via localized behavior vectors:</p>
+            <ul>
+                <li><strong>Stochastic Kick:</strong> Adds a vector perturbation in a randomized direction to evaluate system noise tolerance.</li>
+                <li><strong>Intra-Species Synchronization:</strong> Aligns velocity with forward neighbors of the same group and applies an inverse repulsion vector if space collapses below a safety threshold.</li>
+                <li><strong>Inter-Species Evasion:</strong> Implements distance-dependent probabilistic flip vectors and lateral blind-spot deviations upon checking foreign boundaries.</li>
+                <li><strong>Boundary Soft-Potentials:</strong> Implements a smooth coordinates check that wraps or reflects agents gently away from the canvas border.</li>
+            </ul>
+            <p><a href="../projects.html">← Return to Project Archive</a></p>
+        </div>
+        <br style="clear:both;">
+    </div>
+
+    <script type="text/javascript">
+        // [Paste your raw cellAnimation1.js script text here]
+        // Make sure the function named runn() is preserved inside this block!
+    </script>
+
+</body>
+</html>
