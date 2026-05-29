@@ -28,21 +28,37 @@
 ---
 
 ## 🌌 About Me
-I am a Staff Data Scientist at Micron Technology India, where I work on AI-driven design automation frameworks, specifically focusing on pipelines that go from engineering specifications down to physical layout generation. 
+I am a Staff Data Scientist at Micron Technology India, where I work on AI-driven design automation frameworks, 
+specifically focusing on design specification and automated layout generation.  
 
-My background is originally in pure mathematics; I hold a Ph.D. in Mathematical Physics with a focus on the spectral theory of random operators. After completing two postdoctoral research fellowships in mathematics, I transitioned into industry.
+My background is originally in pure mathematics, I hold a Ph.D. in Mathematical Physics with a focus on the spectral theory of random operators. 
+After completing two postdoctoral research fellowships in mathematics, I transitioned into industry.
 
-In my day-to-day work, I enjoy the challenge of taking clean mathematical formulations and making them work reliably against the messiness of production systems—whether that means optimizing code for resource-constrained edge devices, dealing with high-noise signal data, or handling constantly shifting industrial requirements. Even Generative AI, which is often marketed as a catch-all solution, introduces real engineering problems like hallucinations and unpredictable edge cases. Building production systems with these models requires setting strict exploration bounds, defining clear error margins, and implementing deterministic self-correction code.
+My day-to-day work involves taking mathematical formulations and making them work reliably against the messiness of production systems. 
+For some project that menas optimizing code for resource-constrained edge devices, dealing with high-noise signal data, or handling constantly shifting industrial requirements. 
+Even Generative AI, which is often marketed as a catch-all solution, introduces problems like hallucinations and unpredictable edge cases. 
+Building production systems with generative AI requires setting strict exploration bounds, defining clear error margins and fallbacks, and implementing deterministic self-correction mechanism.
 
-Outside of work, I spend my time building mathematical models (especially simulations that show emergent properties), writing code, and playing PC games. Over the last few years, I have started tinkering with the underlying mechanics of machine learning algorithms to modify their behavior, which has helped stabilize model predictions against chaotic, real-world data distributions.
+Outside of work, I spend my time building mathematical models (especially simulations that show emergent properties), writing code, and playing PC games. 
+In recent years, I have started tinkering with the underlying mechanics of machine learning algorithms to modify their behavior, 
+which has helped stabilize model predictions against chaotic, real-world data distributions.
 
-On the research side, I am currently interested in the development of Graph Neural Networks (GNNs) and Neuroevolution of Augmenting Topologies (NEAT). I believe that any viable AGI framework will require an internal knowledge graph architecture that the system can dynamically modify at runtime. While NEAT algorithms are computationally slower than standard gradient descent, their ability to evolve network topologies makes them a fascinating path forward, especially if blended with graph architectures. With recent work in test-time scaling and recurrent transformer architectures, I am looking into building Graph Attention Network (GAT) based reasoning models that run on an internal model of the environment while outputting actions as a branch space.
+On the research side, I am currently interested in the development of Graph Neural Networks (GNNs) and Neuroevolution of Augmenting Topologies (NEAT). 
+I believe that any viable AGI framework will require an internal knowledge graph architecture that the system can dynamically modify at runtime. 
+While NEAT algorithms are computationally slower than standard gradient descent, their ability to evolve network topologies makes them a fascinating path forward, 
+especially if blended with graph architectures. 
+With recent work in test-time scaling and recurrent transformer architectures, it might be possible to design GAT type architecture designed for language models.
+The TTS model of the system will act as a mechanism to learn from current enviorment. 
+While a GAT architecture with recursive looping within the architecture itself can procide resoning framework within the context of knowledge graph.
+After all, in case of knowledge graph, embedded in GNN, is nothing more than node level model which takes local information and edge information,
+while edge-level models are just taking information from nodes and transforming them to next node. 
+Conceptually reasoning on KG is simply walk over the graph, and result is just projection of the node-vector which is combined together by some projection model.
 
 ---
 
 ## 🛠️ Technical Focus & Field Expertise
 
-* **Design Automation & Graph ML:** Building Agentic multi-agent pipelines to parse specs into knowledge graphs, automating test-case generation, and working with Graph Neural Networks (GNNs) for netlist parasitic estimation to bypass traditional simulation bottlenecks.
+* **Design Automation & Graph ML:** Building Agentic multi-agent pipelines to parse specs into knowledge graphs, automating test-case generation based on specs, and working with Graph Neural Networks (GNNs) for bypass traditional simulation bottlenecks required for netlist to pass requirements.
 * **Industrial ML & Edge Compute:** Developing closed-loop process control systems on constraint-heavy edge hardware, implementing active/continuous learning loops, and designing training methodologies that stabilize time-series models against high-noise plant environments.
 * **Operations Research & Optimization:** Designing cloud-hosted mathematical optimization apps (e.g., handling cutting stock problems via integer programming/metaheuristics) to minimize real-world material and resource waste.
 * **Mathematical Foundations:** Leveraging a core background in pure mathematics to research and tinker with algorithm mechanics—specifically using spectral analysis, random matrix theory, probability, randomized algorithms, and polynomial-time proof systems (such as SAT solvers for quantified Horn formulas).
@@ -54,7 +70,7 @@ On the research side, I am currently interested in the development of Graph Neur
 * **Staff Data Scientist**, Micron Technology India *(Individual Contributor)* `[June 2024 - Present]`
   - **Agentic Layout Integration:** Developing an integration layer for an AI-driven harness to automate layout generation and real-time requirement updates.
   - **LLM Knowledge Pipelines:** Built LLM pipelines to extract knowledge graphs from specs, automating testcase generation and root cause analysis for failed tests.
-  - **GNN-Based Parasitic Estimation:** Contributed to a Graph Neural Network (GNN) based netlist parasitic estimation, reducing simulation iterations with an 8% accuracy improvement.
+  - **GNN-Based Parasitic Estimation:** Contributed to a Graph Neural Network (GNN) based netlist parasitic estimation, reducing simulation iterations with improved accuracy.
 
 * **Data Scientist**, Haber Water *(Team Lead since Sep 2022)* `[January 2022 - May 2024]`
   - **Industrial ML Deployment:** Developed and deployed machine learning models across multiple plant environments to optimize chemical dosing, significantly enhancing operational efficiency.
@@ -83,7 +99,7 @@ On the research side, I am currently interested in the development of Graph Neur
 For a full list of publications, please see [here](https://scholar.google.com/citations?user=gVn3rxMAAAAJ&hl=en&oi=ao).
 
 ---
-
+<!--
 ## 🎨 Interactive Simulations & Systems
 *Below are interactive web simulations exploring emergent patterns, chaotic dynamics, and mathematical modeling.*
 
@@ -94,6 +110,7 @@ An interactive implementation of cellular automata investigating neighborhood-ba
 A visualization tool dedicated to tracking topological properties and attractor maps in high-noise dynamical environments.
 
 ---
+-->
 
 ## 📚 Selected Publications & Fields of Research
 > 💡 *My theoretical research addresses the spectral structures of random operators, quantum mechanics on graphs, and computational complexity. For a complete citation and preprint history, view my [Google Scholar](http://scholar.google.co.in/citations?user=gVn3rxMAAAAJ&hl=en) and [ORCID](http://orcid.org/0000-0001-9534-791X) profiles.*
@@ -125,9 +142,10 @@ A curated repository of custom software-rendering engines, stochastically pertur
 
 ### 🕹️ Interactive Systems & Client-Side Physics
 
-* **Multi-Agent Avian Flocking & Emergent Dynamics**
+* **Avian Flocking & Emergent Dynamics**
   * Investigates how decentralized local neighborhood rules (alignment, proximity repulsion, and inter-species cross-evasion) trigger macro-level spatial partitioning and phase transitions.
-  * 🌐 **[Launch Interactive Simulation](./simulations/cellInteraction.html)** * 🛠️ *Stack: Vanilla HTML5 Canvas, Discrete Time-Step Kinematics*
+  * 🌐 **[Launch Interactive Simulation](./simulations/cellInteraction.html)**
+  * 🛠️ *Stack: Vanilla HTML5 Canvas, Discrete Time-Step Kinematics*
 
 * **Vanilla JS 3D Rasterization Engine & Wave Dynamics**
   * A hand-coded linear algebra rendering pipeline built prior to modern WebGL standards. Features a weak perspective projection matrix, real-time vertex displacement, and surface-normal calculation for dynamic specular shading on a triangular lattice. Includes a dual-pane velocity phase-space plot.
@@ -146,12 +164,12 @@ A curated repository of custom software-rendering engines, stochastically pertur
 * **Spectral Multiplicity for Random Operators** *(PhD Thesis Formulation)*
   * Establishes the exact algebraic and topological conditions under which cyclic, invariant subspaces associated with projection-valued stochastically perturbed operators are unitarily equivalent. Proves a concrete multiplicity bound on the singular spectrum using matrix-valued Herglotz functions.
   * 🗂️ *Theoretical Framework: Spectral Theory, Infinite-Dimensional Operators, Stochastic Perturbations*
-  * **[Read Summary](./projects.html#-spectral-multiplicity-for-random-operators-with-projection-valued-randomness)**
+  * 📄 **[Read Summary](./projects.html#-spectral-multiplicity-for-random-operators-with-projection-valued-randomness)**
 
 * **Scissors Congruence and Hilbert's 3rd Problem**
   * An expository re-formulation and optimization of the classical equidecomposability proof. Maps the geometric boundary conditions of the Dehn Invariant onto chain complexes and group homology to identify structural obstructions in higher dimensions.
   * 🗂️ *Theoretical Framework: Geometric Topology, Homological Algebra, Tensor Product Valuation*
-  * **[Read Summary](./projects.html#-scissors-congruence-and-hilberts-3rd-problem)**
+  * 📄 **[Read Summary](./projects.html#-scissors-congruence-and-hilberts-3rd-problem)**
 
 ---
 
