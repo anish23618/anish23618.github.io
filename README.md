@@ -153,6 +153,8 @@ A curated repository of custom software-rendering engines, stochastically pertur
   * 🛠️ *Stack: Vanilla JavaScript, Coordinate Projection Geometry*
 
 ### 📊 Statistical Signal Processing & Data Analysis
+* **Detecting data drift for hight dimensional data using $\chi^2$ test
+  * **[Read Full Deep Dive](./data_drift_by_chi_square.html)**
 
 * **Number-Theoretic Time Series & Markovian Entropy**
   * An investigation treating the gaps between integers expressible as the sum of two squares ($n = a^2 + b^2$) as a discrete-time signal. Scaled through high-order Markov window depths ($k=2$ to $k=8$) across a 16.6-million observation horizon to test for pseudo-random Gaussian white noise structures.
