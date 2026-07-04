@@ -111,8 +111,9 @@ If $N*2^{-h}=N_1$ is small, this distribution converges to poison, and the analy
 We want $N_1$ to large enough that above distribution can be assumed to be gaussian.
 In practice $N_1$ can be taken as small as $15$, but larger value would be prefered.
 
-Now, suppose we want to test if the points $\tilde{X} = (\tilde{x}_i)_{i=1}^K$ follow same distribution, 
-so for each tree $T_j$, we have the vector $(m_1,\cdots,m_{2^h})$ where $m_i$ denotes number of $\tilde{x}_j$ which lies in the leaf $i$.
+Now, suppose we want to test if the points  $\tilde{X} = (\tilde{x}\_i)\_{i=1}^K$ 
+follow same distribution, 
+so for each tree $T_j$, we have the vector $(m_1,\cdots,m_{2^h})$ where $m_i$ denotes number of $\tilde{x}\_i$  which lies in the leaf $i$.
 The probability vector is given by $(m_1/K,\cdots,m_{2^h}/K)$.
 Because of our construction, the training data had probability $2^{-h}$ for all the leaves, hence we can define the statistics
 
