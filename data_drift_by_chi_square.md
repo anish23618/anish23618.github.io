@@ -92,7 +92,7 @@ Lets assume we have:
 
 First, give a coordinates set, probability of getting it is
 
-$$\mathbb{P}\[coordinates=given~coordinates\] = \frac{h\!}{d^h}\leq (h/d)^h$$
+$$\mathbb{P}[coordinates=given~coordinates] = \frac{h\!}{d^h}\leq (h/d)^h$$
 
 that means the probability of two trees selecting same coordinates is $\sim M^2 (h/d)^h$.
 We want this number to be small. On other hand, we wnat to cover all coordinates, for that we have
@@ -105,7 +105,7 @@ Next, because we are creating tree of depth $h$, the leave nodes have same numbe
 For each tree, this process divided the space into equi-probable zones (w.r.t training data) which will be $2^{-h}$.
 That means if we define a random variable $z$ where it can take values from $1$ to $2^h$ with equal probability and it is sampled $N$ times, the distibution for any one bin is
 
-$$\mathbb{P}\[\sum_{i=1}^N\chi(z_i=j)=m\] = C^N_m 2^{-h m} (1-2^{-h})^{N-m}$$
+$$\mathbb{P}[\sum_{i=1}^N\chi(z_i=j)=m] = C^N_m 2^{-h m} (1-2^{-h})^{N-m}$$
 
 If $N*2^{-h}=N_1$ is small, this distribution converges to poison, and the analysis will break down. 
 We want $N_1$ to large enough that above distribution can be assumed to be gaussian.
