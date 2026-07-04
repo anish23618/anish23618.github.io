@@ -97,7 +97,7 @@ $$\mathbb{P}\[coordinates=given~coordinates\] = \frac{h\!}{d^h}\leq (h/d)^h$$
 that means the probability of two trees selecting same coordinates is $\sim M^2 (h/d)^h$.
 We want this number to be small. On other hand, we wnat to cover all coordinates, for that we have
 
-$$\mathbb{P}\[i ~not ~in ~any ~cooridnates\] \sim (1-1/d)^{Mh}\sim e^{-\frac{Mh}{d}}$$
+$$\mathbb{P}[i ~not ~in ~any ~cooridnates] \sim (1-1/d)^{Mh}\sim e^{-\frac{Mh}{d}}$$
 
 which means $Mh>>d$. This also gives us the condition that we should not take $h\leq 2$.
 
