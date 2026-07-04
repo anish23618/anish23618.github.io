@@ -129,7 +129,7 @@ If the trees does not have any overlap on coordinates it is easy to see that $\m
 But even if the trees have overlapping coordinates, we can assume this because of high dimensionality.
 So now defining
 
-$$p_j = \mathbb{P}\[\chi^2_{2^h-1}\geq \mathcal{T}_j(\tilde{X})\]$$
+$$p_j = \mathbb{P}[\chi^2_{2^h-1}\geq \mathcal{T}_j(\tilde{X})]$$
 
 we aggregate all the trees result as
 
